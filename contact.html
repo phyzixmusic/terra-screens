@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Terrafolio">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/leaflet.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Terrafolio - Contact</title>
+
+</head>
+
+<body>
+
+<!-- WRAPPER
+    =================================================================================================================-->
+<div class="ts-page-wrapper" id="page-top">
+
+    <!--*********************************************************************************************************-->
+    <!--HEADER **************************************************************************************************-->
+    <!--*********************************************************************************************************-->
+    <header id="ts-header" class="">
+
+        <!--PRIMARY NAVIGATION
+        =============================================================================================================-->
+        <nav id="ts-primary-navigation" class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+
+                <!--Brand Logo-->
+                <a class="navbar-brand" href="Home_1.html">
+                    <img src="assets/img/terra-logo.png" alt="" style="width:65%; height:65%;">
+                </a>
+
+                <!--Responsive Collapse Button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Collapsing Navigation-->
+                <div class="collapse navbar-collapse" id="navbarPrimary">
+
+                    <!--LEFT NAVIGATION MAIN LEVEL
+                    =================================================================================================-->
+                    <ul class="navbar-nav">
+
+                        <!--HOME (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+
+                            <!--Main level link-->
+                            <a class="nav-link active" href="Home_1.html">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+
+                        </li>
+                        <!--end HOME nav-item-->
+
+                        <!--Dashboard (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="">Dashboard</a>
+                        </li>
+                        <!--end Dashboard nav-item-->
+
+                        <!--Assets (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item ts-has-child">
+
+                            <!--Main level link-->
+                            <a class="nav-link" href="#">Assets</a>
+
+                            <!-- List (1st level) -->
+                            <ul class="ts-child">
+
+                                <!-- CATEGORY ICONS (1st level)
+                                =====================================================================================-->
+                                <li class="nav-item">
+
+                                    <a href="submit.html" class="nav-link">Add Asset</a>
+
+                                </li>
+                                <!--end CATEGORY ICONS (1st level)-->
+
+                                <!-- GRID (1st level)
+                                =====================================================================================-->
+                                <li class="nav-item">
+
+                                    <a href="myassets.html" class="nav-link">My Assets</a>
+
+
+                                </li>
+                                <!--end GRID (1st level)-->
+
+                            </ul>
+                            <!--end List (1st level) -->
+
+                        </li>
+                        <!--end Assets nav-item-->
+
+
+                        <!--About (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About</a>
+                        </li>
+                        <!--end About nav-item-->
+
+                        <!--CONTACT (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="contact.html">Contact</a>
+                        </li>
+                        <!--end CONTACT nav-item-->
+
+                    </ul>
+                    <!--end Left navigation main level-->
+
+                    <!--RIGHT NAVIGATION MAIN LEVEL
+                    =================================================================================================-->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!--LOGIN (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+
+
+                        <!--SUBMIT (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary btn-sm m-1 px-3" href="submit.html">
+                                <i class="fa fa-plus small mr-2"></i>
+                                Add Property
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!--end Right navigation-->
+
+                </div>
+                <!--end navbar-collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end #ts-primary-navigation.navbar-->
+
+    </header>
+    <!--end Header-->
+
+    <!--*********************************************************************************************************-->
+    <!-- MAIN ***************************************************************************************************-->
+    <!--*********************************************************************************************************-->
+
+    <main id="ts-main">
+
+        <!--PAGE TITLE
+            =========================================================================================================-->
+        <section id="page-title">
+            <div class="container">
+                <div class="ts-title">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </section>
+
+        <!--MAP
+            =========================================================================================================-->
+        <section id="map-address">
+
+            <div class="container mb-5">
+                <div class="ts-contact-map ts-map ts-shadow__sm position-relative">
+
+                    <!--Address on map-->
+                    <address class="position-absolute ts-bottom__0 ts-left__0 text-white m-3 p-4 ts-z-index__2" data-bg-color="rgba(0,0,0,.8)">
+                        <strong>Terrafolio HQ</strong>
+                        <br>
+                        Akshar Arcade
+                        <br>
+                        AMD 380039
+                    </address>
+
+                    <!--Map-->
+                    <div id="ts-map-simple" class="h-100 ts-z-index__1"
+                         data-ts-map-leaflet-provider="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png"
+                         data-ts-map-zoom="14"
+                         data-ts-map-center-latitude="40.702411"
+                         data-ts-map-center-longitude="-73.556842"
+                         data-ts-map-scroll-wheel="1"
+                         data-ts-map-controls="0"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--CONTACT INFO & FORM
+            =========================================================================================================-->
+        <section id="contact-form">
+            <div class="container">
+                <div class="row">
+
+                    <!--CONTACTS (LEFT SIDE)
+                        =============================================================================================-->
+                    <div class="col-md-4">
+
+                        <!--Title-->
+                        <h3>Get In Touch</h3>
+
+                        <p>
+                            If you have any questions please do not hesitate to contact us
+                        </p>
+
+                        <!--Phone-->
+                        <figure class="ts-center__vertical">
+                            <i class="fa fa-phone ts-opacity__50 mr-3 mb-0 h4 font-weight-bold"></i>
+                            <dl class="mb-0">
+                                <dt>Phone</dt>
+                                <dd class="ts-opacity__50">+1 321-978-5552</dd>
+                            </dl>
+                        </figure>
+
+                        <!--Email-->
+                        <figure class="ts-center__vertical">
+                            <i class="fa fa-envelope ts-opacity__50 mr-3 mb-0 h4 font-weight-bold"></i>
+                            <dl class="mb-0">
+                                <dt>Email</dt>
+                                <dd class="ts-opacity__50">
+                                    <a href="#">hello@example.com</a>
+                                </dd>
+                            </dl>
+                        </figure>
+
+                        <!--Skype-->
+                        <figure class="ts-center__vertical">
+                            <i class="fab fa-skype ts-opacity__50 mr-3 mb-0 h4 font-weight-bold"></i>
+                            <dl class="mb-0">
+                                <dt>Skype</dt>
+                                <dd class="ts-opacity__50">
+                                    <a href="#">real.estate.agency</a>
+                                </dd>
+                            </dl>
+                        </figure>
+
+                    </div>
+                    <!--end col-md-4-->
+
+                    <!--FORM (RIGHT SIDE)
+                        =============================================================================================-->
+                    <div class="col-md-8">
+
+                        <!--Title-->
+                        <h3>Contact Form</h3>
+
+                        <!--Form-->
+                        <form id="form-contact" method="post" class="clearfix ts-form ts-form-email" data-php-path="assets/php/email.php">
+
+                            <!--Row-->
+                            <div class="row">
+
+                                <!--Name-->
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="form-contact-name">Name *</label>
+                                        <input type="text" class="form-control" id="form-contact-name" name="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+
+                                <!--Email-->
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="form-contact-email">Email *</label>
+                                        <input type="email" class="form-control" id="form-contact-email" name="email" placeholder="Your Email" required>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end row -->
+
+                            <!--Subject-->
+                            <div class="form-group">
+                                <label for="form-contact-email">Subject*</label>
+                                <input type="text" class="form-control" id="form-contact-subject" name="subject" placeholder="Subject" required>
+                            </div>
+
+                            <!--Message-->
+                            <div class="form-group">
+                                <label for="form-contact-message">Message *</label>
+                                <textarea class="form-control" id="form-contact-message" rows="5" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+
+                            <!--Submit button-->
+                            <div class="form-group clearfix">
+                                <button type="submit" class="btn btn-primary float-right" id="form-contact-submit">Send
+                                    a Message
+                                </button>
+                            </div>
+
+                            <div class="form-contact-status"></div>
+
+                        </form>
+                        <!--end form-contact -->
+                    </div>
+                    <!--end col-md-8-->
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+
+    </main>
+    <!--end #ts-main-->
+
+    <!--*********************************************************************************************************-->
+    <!--************ FOOTER *************************************************************************************-->
+    <!--*********************************************************************************************************-->
+    <footer id="ts-footer">
+
+        <!--MAIN FOOTER CONTENT
+        =============================================================================================================-->
+        <section id="ts-footer-main">
+            <div class="container">
+                <div class="row">
+
+                    <!--Brand and description-->
+                    <div class="col-md-6">
+                        <a href="#" class="brand">
+                            <img src="assets/img/terra-logo.png" alt="">
+                        </a>
+                        <p class="mb-4">
+                            A new means for real estate investment by deploying crowdfunding and issuing digital virtual receipts representing interest in real estate assets
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mb-4">Contact Us</a>
+                    </div>
+
+                    <!--Navigation-->
+                    <div class="col-md-2">
+                        <h4>Navigation</h4>
+                        <nav class="nav flex-row flex-md-column mb-4">
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#" class="nav-link">Dashboard</a>
+                            <a href="#" class="nav-link">Assets</a>
+                            <a href="#" class="nav-link">FAQ</a>
+                            <a href="#" class="nav-link">Submit Property</a>
+                        </nav>
+                    </div>
+
+                    <!--Contact Info-->
+                    <div class="col-md-4">
+                        <h4>Contact</h4>
+                        <address class="ts-text-color-light">
+                            Some road here
+                            <br>
+                            Ahmedabad, 3800089
+                            <br>
+                            <strong>Email: </strong>
+                            <a href="#" class="btn-link">hello@terrafol.io</a>
+                            <br>
+                            <strong>Phone:</strong>
+                            +1 215-606-0391
+                            <br>
+                            <strong>Skype: </strong>
+                            terrafol.io
+                        </address>
+                    </div>
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end ts-footer-main-->
+
+        <!--SECONDARY FOOTER CONTENT
+        =============================================================================================================-->
+        <section id="ts-footer-secondary">
+            <div class="container">
+
+                <!--Copyright-->
+                <div class="ts-copyright">(C) 2018 Terrafolio, All rights reserved</div>
+
+                <!--Social Icons-->
+                <div class="ts-footer-nav">
+                    <nav class="nav">
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </nav>
+                </div>
+                <!--end ts-footer-nav-->
+
+            </div>
+            <!--end container-->
+        </section>
+        <!--end ts-footer-secondary-->
+
+    </footer>
+    <!--end #ts-footer-->
+
+</div>
+<!--end page-->
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/map-leaflet.js"></script>
+
+</body>
+</html>

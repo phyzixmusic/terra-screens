@@ -1,0 +1,1312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Terrafolio">
+
+    <!--CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Terrafolio - Real Estate Investments</title>
+
+</head>
+
+<body>
+
+<!-- WRAPPER
+=====================================================================================================================-->
+<div class="ts-page-wrapper ts-homepage" id="page-top">
+
+    <!--*********************************************************************************************************-->
+    <!--HEADER **************************************************************************************************-->
+    <!--*********************************************************************************************************-->
+    <header id="ts-header" class="fixed-top">
+
+        <!--PRIMARY NAVIGATION
+        =============================================================================================================-->
+        <nav id="ts-primary-navigation" class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+
+                <!--Brand Logo-->
+                <a class="navbar-brand" href="Home_1.html">
+                    <img src="assets/img/terra-logo.png" alt="" style="width:65%; height:65%;">
+                </a>
+
+                <!--Responsive Collapse Button-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPrimary" aria-controls="navbarPrimary" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Collapsing Navigation-->
+                <div class="collapse navbar-collapse" id="navbarPrimary">
+
+                    <!--LEFT NAVIGATION MAIN LEVEL
+                    =================================================================================================-->
+                    <ul class="navbar-nav">
+
+                        <!--HOME (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+
+                            <!--Main level link-->
+                            <a class="nav-link active" href="Home_1.html">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+
+                        </li>
+                        <!--end HOME nav-item-->
+
+                        <!--Dashboard (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="">Dashboard</a>
+                        </li>
+                        <!--end Dashboard nav-item-->
+
+                        <!--Assets (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item ts-has-child">
+
+                            <!--Main level link-->
+                            <a class="nav-link" href="#">Assets</a>
+
+                            <!-- List (1st level) -->
+                            <ul class="ts-child">
+
+                                <!-- CATEGORY ICONS (1st level)
+                                =====================================================================================-->
+                                <li class="nav-item">
+
+                                    <a href="submit.html" class="nav-link">Add Asset</a>
+
+                                </li>
+                                <!--end CATEGORY ICONS (1st level)-->
+
+                                <!-- GRID (1st level)
+                                =====================================================================================-->
+                                <li class="nav-item">
+
+                                    <a href="myassets.html" class="nav-link">My Assets</a>
+
+
+                                </li>
+                                <!--end GRID (1st level)-->
+
+                            </ul>
+                            <!--end List (1st level) -->
+
+                        </li>
+                        <!--end Assets nav-item-->
+
+
+                        <!--About (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About</a>
+                        </li>
+                        <!--end About nav-item-->
+
+                        <!--CONTACT (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="contact.html">Contact</a>
+                        </li>
+                        <!--end CONTACT nav-item-->
+
+                    </ul>
+                    <!--end Left navigation main level-->
+
+                    <!--RIGHT NAVIGATION MAIN LEVEL
+                    =================================================================================================-->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!--LOGIN (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+
+
+                        <!--SUBMIT (Main level)
+                        =============================================================================================-->
+                        <li class="nav-item">
+                            <a class="btn btn-outline-primary btn-sm m-1 px-3" href="submit.html">
+                                <i class="fa fa-plus small mr-2"></i>
+                                Add Property
+                            </a>
+                        </li>
+
+                    </ul>
+                    <!--end Right navigation-->
+
+                </div>
+                <!--end navbar-collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+        <!--end #ts-primary-navigation.navbar-->
+
+    </header>
+    <!--end Header-->
+
+    <!-- HERO SLIDER
+    =================================================================================================================-->
+    <section id="ts-hero" class="text-center mb-0">
+
+        <div class="ts-full-screen ts-center__both">
+
+            <!--Container-->
+            <div class="container py-2 py-sm-5">
+
+                <!--Title-->
+                <h1 class="mb-2 text-white">Find the next investment for your portfolio</h1>
+
+                <!--Subtitle-->
+                <h4 class="ts-opacity__50 text-white">Earn monthly payouts and invest in your future</h4>
+
+                <!--Form-->
+                <form class="ts-form p-3 my-5 ts-border-radius__md ts-borderless-inputs" data-bg-color="rgba(255,255,255,.9)">
+
+                    <!--More options button-->
+                    <a href="#more-options-collapse" class="ts-form-advanced-search ts-circle collapsed" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="more-options-collapse">
+                        <i class="fa fa-plus ts-visible-on-collapsed"></i>
+                        <i class="fa fa-minus ts-visible-on-uncollapsed"></i>
+                    </a>
+
+                    <div class="position-absolute ts-bottom__0 ts-push-down__100 pl-4 ml-1 pt-3 ts-z-index__-1">
+                        <img src="assets/img/arrow.svg" alt="" class="ts-opacity__50">
+                        <small class="text-white pl-1 ts-push-down__50 d-inline-block">More Options</small>
+                    </div>
+
+                    <!--Row-->
+                    <div class="row no-gutters">
+
+                        <!--Keyword-->
+                        <div class="col-sm-6 col-md-3">
+                            <div class="form-group my-2">
+                                <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Area">
+                            </div>
+                        </div>
+
+                        <!--Type-->
+                        <div class="col-sm-6 col-md-3">
+                            <select class="custom-select my-2 border-left" id="type" name="type">
+                                <option value="">Type</option>
+                                <option value="1">Apartment</option>
+                                <option value="2">Villa</option>
+                                <option value="3">Land</option>
+                                <option value="4">Bunglow</option>
+                            </select>
+                        </div>
+
+                        <!--Status-->
+                        <div class="col-sm-6 col-md-3">
+                            <select class="custom-select my-2 border-left" id="status" name="status">
+                                <option value="">Status</option>
+                                <option value="1">Rent</option>
+                                <option value="2">Sale</option>
+                            </select>
+                        </div>
+
+                        <!--Price and Submit button-->
+                        <div class="col-sm-6 col-md-3">
+                            <div class="row no-gutters">
+
+                                <!--Max Price-->
+                                <div class="col-sm-6">
+                                    <select class="custom-select my-2 border-left" id="price" name="status">
+                                        <option value="">Max Price</option>
+                                        <option value="1">$ 5,000</option>
+                                        <option value="2">$ 10,000</option>
+                                        <option value="3">$ 20,000</option>
+                                        <option value="4">$ 50,000</option>
+                                    </select>
+                                </div>
+
+                                <!--Submit button-->
+                                <div class="col-sm-6">
+                                    <div class="form-group my-2">
+                                        <button type="submit" class="btn btn-primary w-100" id="search-btn">Search</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--end row-->
+
+                    <!--Hidden Form-->
+                    <div class="collapse text-left" id="more-options-collapse">
+
+                        <!--Padding-->
+                        <div class="py-4">
+
+                            <!--Row-->
+                            <div class="form-row">
+
+                                <!--Bedrooms-->
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="bedrooms">Bedrooms</label>
+                                        <input type="number" class="form-control" id="bedrooms" name="bedrooms" min="0">
+                                    </div>
+                                </div>
+
+                                <!--Bathrooms-->
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="bathrooms">Bathrooms</label>
+                                        <input type="number" class="form-control" id="bathrooms" name="bathrooms" min="0">
+                                    </div>
+                                </div>
+
+                                <!--Garages-->
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <label for="garages">Garages</label>
+                                        <input type="number" class="form-control" id="garages" name="garages" min="0">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end row-->
+
+                            <!--Checkboxes-->
+                            <div id="features-checkboxes" class="w-100">
+                                <h6 class="mb-3">Features</h6>
+
+                                <div class="ts-column-count-3">
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_1" name="features[]" value="ch_1">
+                                        <label class="custom-control-label" for="ch_1">Air conditioning</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_2" name="features[]" value="ch_2">
+                                        <label class="custom-control-label" for="ch_2">Bedding</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_3" name="features[]" value="ch_3">
+                                        <label class="custom-control-label" for="ch_3">Heating</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_4" name="features[]" value="ch_4">
+                                        <label class="custom-control-label" for="ch_4">Internet</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_5" name="features[]" value="ch_5">
+                                        <label class="custom-control-label" for="ch_5">Microwave</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_6" name="features[]" value="ch_6">
+                                        <label class="custom-control-label" for="ch_6">Smoking allowed</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_7" name="features[]" value="ch_7">
+                                        <label class="custom-control-label" for="ch_7">Terrace</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_8" name="features[]" value="ch_8">
+                                        <label class="custom-control-label" for="ch_8">Balcony</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_9" name="features[]" value="ch_9">
+                                        <label class="custom-control-label" for="ch_9">Iron</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_10" name="features[]" value="ch_10">
+                                        <label class="custom-control-label" for="ch_10">Hi-Fi</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_11" name="features[]" value="ch_11">
+                                        <label class="custom-control-label" for="ch_11">Beach</label>
+                                    </div>
+
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="ch_12" name="features[]" value="ch_12">
+                                        <label class="custom-control-label" for="ch_12">Parking</label>
+                                    </div>
+
+                                </div>
+                                <!--end ts-column-count-3-->
+
+                            </div>
+                            <!--end #features-checkboxes-->
+
+                        </div>
+                        <!--end Padding-->
+                    </div>
+                    <!--end more-options-collapse-->
+
+                </form>
+
+                <a href="#featured-properties" class="ts-scroll btn btn-outline-light btn-sm mt-5 d-none d-md-inline-block">Show More Properties</a>
+
+            </div>
+            <!--end container-->
+
+            <div class="ts-background ts-hero-slider ts-bg-black">
+                <div class="ts-background-image ts-opacity__30">
+
+                    <div class="owl-carousel" data-owl-loop="1" data-owl-fadeout="1">
+                        <div class="ts-slide" data-bg-image="assets/img/bg-bedroom.jpg"></div>
+                        <div class="ts-slide" data-bg-image="assets/img/bg-apartment-tv.jpg"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end ts-full-screen-->
+
+    </section>
+    <!--end ts-hero-->
+
+    <!--*********************************************************************************************************-->
+    <!-- MAIN ***************************************************************************************************-->
+    <!--*********************************************************************************************************-->
+
+    <main id="ts-main">
+
+        <!-- CATEGORY SELECT
+        =============================================================================================================-->
+        <section id="category-select" class="ts-icons-select ts-icons-select__dark">
+
+            <!--Cabins-->
+            <a href="listing-category-icons.html">
+                <aside>17</aside>
+                <img src="assets/svg/icon-cabins-w.svg" alt="">
+                <figure>
+                    <h6>Cabins</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+            <!--Apartments-->
+            <a href="listing-category-icons.html">
+                <aside>32</aside>
+                <img src="assets/svg/icon-apartment-w.svg" alt="">
+                <figure>
+                    <h6>Apartments</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+            <!--Houses-->
+            <a href="listing-category-icons.html">
+                <aside>86</aside>
+                <img src="assets/svg/icon-house-w.svg" alt="">
+                <figure>
+                    <h6>Houses</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+            <!--Offices-->
+            <a href="listing-category-icons.html">
+                <aside>64</aside>
+                <img src="assets/svg/icon-offices-w.svg" alt="">
+                <figure>
+                    <h6>Offices</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+            <!--Garages-->
+            <a href="listing-category-icons.html">
+                <aside>21</aside>
+                <img src="assets/svg/icon-garages-w.svg" alt="">
+                <figure>
+                    <h6>Garages</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+            <!--Lands-->
+            <a href="listing-category-icons.html">
+                <aside>46</aside>
+                <img src="assets/svg/icon-land-w.svg" alt="">
+                <figure>
+                    <h6>Lands</h6>
+                    <small>Explore</small>
+                </figure>
+            </a>
+
+        </section>
+
+        <!-- FEATURED PROPERTIES
+        =============================================================================================================-->
+        <section id="featured-properties" class="ts-block pt-5">
+            <div class="container">
+
+                <!--Title-->
+                <div class="ts-title text-center">
+                    <h2>Featured Properties</h2>
+                </div>
+
+                <div class="row">
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <div class="card ts-item ts-card ts-item__lg">
+
+                            <!--Ribbon-->
+                            <div class="ts-ribbon">
+                                <i class="fa fa-thumbs-up"></i>
+                            </div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-01.jpg">
+                                <div class="ts-item__info-badge">
+                                    $350,000
+                                </div>
+                                <figure class="ts-item__info">
+                                    <h4>Big Luxury Apartment</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Investors</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Return Target</dt>
+                                        <dd>16%</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Funded</dt>
+                                        <dd>30%</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <div class="card ts-item ts-card ts-item__lg">
+
+                            <!--Ribbon-->
+                            <div class="ts-ribbon">
+                                <i class="fa fa-thumbs-up"></i>
+                            </div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-01.jpg">
+                                <div class="ts-item__info-badge">
+                                    $350,000
+                                </div>
+                                <figure class="ts-item__info">
+                                    <h4>Big Luxury Apartment</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Investors</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Return Target</dt>
+                                        <dd>16%</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Funded</dt>
+                                        <dd>30%</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-4">
+
+                        <div class="card ts-item ts-card ts-item__lg">
+
+                            <!--Ribbon-->
+                            <div class="ts-ribbon">
+                                <i class="fa fa-thumbs-up"></i>
+                            </div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-01.jpg">
+                                <div class="ts-item__info-badge">
+                                    $350,000
+                                </div>
+                                <figure class="ts-item__info">
+                                    <h4>Big Luxury Apartment</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Investors</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Return Target</dt>
+                                        <dd>16%</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Funded</dt>
+                                        <dd>30%</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+ 
+
+                </div>
+                <!--end row-->
+
+                <!--All properties button-->
+                <div class="text-center mt-3">
+                    <a href="listing-category-icons.html" class="btn btn-outline-dark ts-btn-border-muted">Show All Properties</a>
+                </div>
+
+            </div>
+            <!--end container-->
+        </section>
+
+
+
+        <!-- SUBSCRIBE
+        =============================================================================================================-->
+        <section id="subscribe" class="ts-block text-white ts-separate-bg-element" data-bg-image="assets/img/bg-offices.jpg" data-bg-color="#8CC63F" data-bg-image-opacity=".3">
+            <div class="container">
+                <div class="offset-lg-1 col-lg-10">
+
+                    <h3 class="font-weight-light">Subscribe for to stay updated!</h3>
+
+                    <form class="ts-form ts-form-email" data-php-path="assets/php/email.php">
+                        <div class="row">
+
+                            <!--Input-->
+                            <div class="col-sm-8 col-md-10">
+                                <div class="form-group mb-0">
+                                    <input type="email" class="form-control" id="email-subscribe" aria-describedby="subscribe" name="email" placeholder="Email Address" required>
+                                    <small class="form-text mt-2 ts-opacity__50">*You’ll get only relevant news once a week </small>
+                                </div>
+                            </div>
+
+                            <!--Button-->
+                            <div class="col-sm-4 col-md-2">
+                                <button type="submit" class="btn btn-outline-light w-100">Submit</button>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES
+        =============================================================================================================-->
+        <section class="ts-block bg-white">
+            <div class="container py-4">
+                <div class="row">
+
+                    <!--Feature-->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="ts-feature">
+
+                            <figure class="ts-feature__icon p-2">
+                                    <span class="ts-circle">
+                                        <i class="fa fa-check"></i>
+                                    </span>
+                                <img src="assets/img/icon-house.png" alt="">
+                            </figure>
+
+                            <h4>Cost Efficency</h4>
+
+                            <p>Eliminate transaction costs by digitzing adminstration and documentation of the proceedings</p>
+
+                        </div>
+                    </div>
+
+                    <!--Feature-->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="ts-feature">
+
+                            <figure class="ts-feature__icon p-2">
+                                    <span class="ts-circle">
+                                        <i class="fa fa-check"></i>
+                                    </span>
+                                <img src="assets/img/icon-pin.png" alt="">
+                            </figure>
+
+                            <h4>Everything on One Place</h4>
+
+                            <p>No more contacting multiple brokers, manage investments and assets from one place</p>
+
+                        </div>
+                    </div>
+
+                    <!--Feature-->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="ts-feature">
+
+                            <figure class="ts-feature__icon p-2">
+                                    <span class="ts-circle">
+                                        <i class="fa fa-check"></i>
+                                    </span>
+                                <img src="assets/img/icon-agent.png" alt="">
+                            </figure>
+
+                            <h4>Liquidity</h4>
+
+                            <p>Partial ownership & automated due diligence creates a mature secondary market providing liquidity</p>
+
+                        </div>
+                    </div>
+
+                    <!--Feature-->
+                    <div class="col-sm-6 col-md-3">
+                        <div class="ts-feature">
+
+                            <figure class="ts-feature__icon p-2">
+                                    <span class="ts-circle">
+                                        <i class="fa fa-check"></i>
+                                    </span>
+                                <img src="assets/img/icon-calculator.png" alt="">
+                            </figure>
+
+                            <h4>Transparent Investments</h4>
+
+                            <p>The immutable digital virtual reciepts (DVR) guarantees payments and gives investors control over their investment</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end ts-block-->
+
+        <!--LATEST LISTINGS
+        =============================================================================================================-->
+        <section id="latest-listings" class="ts-block">
+            <div class="container">
+
+                <!--Title-->
+                <div class="ts-title">
+                    <h2>Latest Listings</h2>
+                </div>
+
+                <!--Row-->
+                <div class="row">
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Ribbon-->
+                            <div class="ts-ribbon">
+                                <i class="fa fa-thumbs-up"></i>
+                            </div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-01.jpg">
+                                <div class="ts-item__info-badge">
+                                    $350,000
+                                </div>
+                                <figure class="ts-item__info">
+                                    <h4>Big Luxury Apartment</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Ribbon-->
+                            <div class="ts-ribbon-corner">
+                                <span>Updated</span>
+                            </div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-02.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>Cozy Design Studio</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        4831 Worthington Drive
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">$125,000</div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body ts-item__body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item ts-card-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-03.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>Family Villa</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        4127 Winding Way
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">$45,900</div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body ts-item__body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item ts-card-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-04.jpg">
+                                <div class="ts-item__info-badge">
+                                    $860,000
+                                </div>
+                                <figure class="ts-item__info">
+                                    <h4>Traditional Restaurant</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-05.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>White Cubes Resort</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        4831 Worthington Drive
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">$435,000</div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body ts-item__body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item ts-card-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-06.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>Bristol Tower Complex</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        4127 Winding Way
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">$85,900</div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body ts-item__body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item ts-card-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-07.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>River Apartments</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        1350 Arbutus Drive
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">
+                                    $120,000
+                                </div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                    <!--Item-->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card ts-item ts-card">
+
+                            <div class="badge badge-dark">Rent</div>
+
+                            <!--Card Image-->
+                            <a href="detail-01.html" class="card-img ts-item__image" data-bg-image="assets/img/img-item-thumb-08.jpg">
+                                <figure class="ts-item__info">
+                                    <h4>Apartment for Rent</h4>
+                                    <aside>
+                                        <i class="fa fa-map-marker mr-2"></i>
+                                        4831 Worthington Drive
+                                    </aside>
+                                </figure>
+                                <div class="ts-item__info-badge">
+                                    <span>$480</span>
+                                    <small>/ month</small>
+                                </div>
+                            </a>
+
+                            <!--Card Body-->
+                            <div class="card-body ts-item__body">
+                                <div class="ts-description-lists">
+                                    <dl>
+                                        <dt>Area</dt>
+                                        <dd>325m<sup>2</sup></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bedrooms</dt>
+                                        <dd>2</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Bathrooms</dt>
+                                        <dd>1</dd>
+                                    </dl>
+                                </div>
+                            </div>
+
+                            <!--Card Footer-->
+                            <a href="detail-01.html" class="card-footer">
+                                <span class="ts-btn-arrow">Detail</span>
+                            </a>
+
+                        </div>
+                        <!--end ts-item ts-card-->
+                    </div>
+                    <!--end Item col-md-4-->
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+
+
+        <!--SUBMIT BANNER
+        =============================================================================================================-->
+        <section id="submit-banner" class="ts-block">
+            <div class="container">
+
+                <div class="ts-block-inside text-center ts-separate-bg-element text-white" data-bg-image-opacity=".4" data-bg-image="" data-bg-color="#8CC63F">
+                    <figure class="h1 font-weight-light mb-2">Have Some Property For Sale?</figure>
+                    <p class="mb-5">Get instant liquidity</p>
+                    <a href="submit.html" class="btn btn-light">Submit Your Own</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--PARTNERS
+        =============================================================================================================-->
+        <section id="partners" class="ts-block pt-4 pb-0">
+            <div class="container">
+
+                <!--Logos-->
+                <div class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
+
+                    <a href="#">
+                        <img src="assets/img/logo-01.png" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/logo-02.png" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/logo-03.png" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/logo-04.png" alt="">
+                    </a>
+
+                    <a href="#">
+                        <img src="assets/img/logo-05.png" alt="">
+                    </a>
+
+                </div>
+                <!--end logos-->
+            </div>
+        </section>
+
+    </main>
+
+    <!--*********************************************************************************************************-->
+    <!--************ FOOTER *************************************************************************************-->
+    <!--*********************************************************************************************************-->
+
+    <footer id="ts-footer">
+
+        <!--MAIN FOOTER CONTENT
+        =============================================================================================================-->
+        <section id="ts-footer-main">
+            <div class="container">
+                <div class="row">
+
+                    <!--Brand and description-->
+                    <div class="col-md-6">
+                        <a href="#" class="brand">
+                            <img src="assets/img/terra-logo.png" alt="">
+                        </a>
+                        <p class="mb-4">
+                            A new means for real estate investment by deploying crowdfunding and issuing digital virtual receipts representing interest in real estate assets
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mb-4">Contact Us</a>
+                    </div>
+
+                    <!--Navigation-->
+                    <div class="col-md-2">
+                        <h4>Navigation</h4>
+                        <nav class="nav flex-row flex-md-column mb-4">
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#" class="nav-link">Dashboard</a>
+                            <a href="#" class="nav-link">Assets</a>
+                            <a href="faq.html" class="nav-link">FAQ</a>
+                            <a href="#" class="nav-link">Submit Property</a>
+                        </nav>
+                    </div>
+
+                    <!--Contact Info-->
+                    <div class="col-md-4">
+                        <h4>Contact</h4>
+                        <address class="ts-text-color-light">
+                            Some road here
+                            <br>
+                            Ahmedabad, 3800089
+                            <br>
+                            <strong>Email: </strong>
+                            <a href="#" class="btn-link">hello@terrafol.io</a>
+                            <br>
+                            <strong>Phone:</strong>
+                            +1 215-606-0391
+                            <br>
+                            <strong>Skype: </strong>
+                            terrafol.io
+                        </address>
+                    </div>
+
+                </div>
+                <!--end row-->
+            </div>
+            <!--end container-->
+        </section>
+        <!--end ts-footer-main-->
+
+        <!--SECONDARY FOOTER CONTENT
+        =============================================================================================================-->
+        <section id="ts-footer-secondary">
+            <div class="container">
+
+                <!--Copyright-->
+                <div class="ts-copyright">(C) 2018 Terrafolio, All rights reserved</div>
+
+                <!--Social Icons-->
+                <div class="ts-footer-nav">
+                    <nav class="nav">
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </nav>
+                </div>
+                <!--end ts-footer-nav-->
+
+            </div>
+            <!--end container-->
+        </section>
+        <!--end ts-footer-secondary-->
+
+    </footer>
+    <!--end #ts-footer-->
+
+</div>
+<!--end page-->
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
